@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>registration form</title>
+  <link rel="stylesheet" th:href="@{/style.css}" />
+</head>
+
+<body>
+      <div style="text-align: center;">
+
+<form method="POST" th:action="@{/second}" th:object="${secondP}" >
+  <h1>form</h1>
+
+  <div th:if="${#fields.hasErrors()}">
+        <span class="validationError">
+        Please correct the problems below and resubmit.
+        </span>
+  </div>
+
+  <h3> please, put your name</h3>
+  <label for="name">name :</label>
+  <input type="text" th:field="*{name}" id="name" placeholder="name"/>
+  <span class="validationError"
+        th:if="${#fields.hasErrors('name')}"
+        th:errors="*{name}">Name Error</span>
+
+  <br/>
+
+  <h3> please, put your Surname</h3>
+  <label for="surname">Surname:</label>
+  <input type="text" th:field="*{surname}" id="surname" placeholder="surname">
+  <span class="validationError"
+        th:if="${#fields.hasErrors('surname')}"
+        th:errors="*{surname}">Surname Error</span>
+
+  <br/>
+
+    <h3> please, put your sex</h3>
+    <label>your sex:</label>
+    <input type="radio" th:field="*{sex}" value="Male" checked/>Male
+    <input type="radio" th:field="*{sex}" value="Female"/>Female
+    <span class="validationError"
+          th:if="${#fields.hasErrors('sex')}"
+          th:errors="*{sex}">Sex Error</span>
+    <br/>
+
+  <h3> please, put your current country</h3>
+  <label for="country">your country:</label>
+  <input type="text" th:field="*{country}" id="country" placeholder="country">
+  <span class="validationError"
+        th:if="${#fields.hasErrors('country')}"
+        th:errors="*{country}">Country Error</span>
+
+  <br/>
+
+  <h3> please, put your current city</h3>
+  <label for="city">your city:</label>
+  <input type="text" th:field="*{city}" id="city" placeholder="city">
+  <span class="validationError"
+        th:if="${#fields.hasErrors('city')}"
+        th:errors="*{city}">City Error</span>
+
+  <br/>
+
+    <h3> please, put your dateOfBirth</h3>
+    <label for="dateOfBirth">date when you was born:</label>
+    <input type="date" th:field="*{dateOfBirth}" id="dateOfBirth" placeholder="date when you was born">
+
+    <span class="validationError"
+          th:if="${#fields.hasErrors('dateOfBirth')}"
+          th:errors="*{dateOfBirth}">DateOfBirth Error</span>
+
+    <br/>
+
+    <h3> please, put your email</h3>
+    <label for="email">email must have been here:</label>
+    <input type="text" th:field="*{email}" id="email" placeholder="email">
+    <span class="validationError"
+          th:if="${#fields.hasErrors('email')}"
+          th:errors="*{email}">email Error</span>
+
+    <br/>
+
+<!--  <h3> please, put your patronymic</h3>
+  <label for="patronymic">your patronymic:</label>
+  <input type="text" th:field="*{patronymic}" id="patronymic" placeholder="patronymic">
+  <span class="validationError"
+        th:if="${#fields.hasErrors('patronymic')}"
+        th:errors="*{patronymic}">Patronymic Error</span>
+
+  <br/>-->
+
+
+
+  <!--<h3> please, put your sex</h3>
+  <label for="sex">your sex:</label>
+  <input type="text" th:field="*{sex}" >
+  <span class="validationError"
+        th:if="${#fields.hasErrors('sex')}"
+        th:errors="*{sex}">Sex Error</span>-->
+
+
+
+
+
+<!--
+с помощью выбора можно выбрать пол вот так:
+  <select th:field="*{sex}">
+    <option th:value="'M'" th:text="Male">male</option>
+    <option th:value="'F'" th:text="Female">female</option>
+  </select>
+-->
+
+   <br/>
+
+   <h3> please, put your height</h3>
+   <label for="height">height in cm:</label>
+   <input type="number" th:field="*{height}" id="height" placeholder="your height in cm">
+   <span class="validationError"
+         th:if="${#fields.hasErrors('height')}"
+         th:errors="*{height}">Height Error</span>
+
+   <br/>
+
+   <h3> please, put your weight</h3>
+   <label for="weight">your weight:</label>
+   <input type="number" th:field="*{weight}" id="weight" placeholder="your weight in kilograms">
+   <span class="validationError"
+         th:if="${#fields.hasErrors('weight')}"
+         th:errors="*{weight}">weight Error</span>
+
+   <br/>
+
+
+
+   <h3> the brief story about you:</h3>
+   <label for="aboutMe"></label>
+ <!--  <input type="text" th:field="*{aboutMe}" id="aboutMe">-->
+    <textarea rows="5" cols="35" th:field="*{aboutMe}" id="aboutMe" placeholder="a short story about you^ it helps another understand you better"></textarea>
+   <span class="validationError"
+         th:if="${#fields.hasErrors('aboutMe')}"
+         th:errors="*{aboutMe}">AboutMe Error</span>
+
+   <br/>
+
+
+
+<label > I get my permission</label>
+
+
+    <input type="checkbox" name="checkbox" required="required" /><br/>
+
+
+
+
+  <br/>
+   <input type="submit" value="send form">
+ </form>
+
+         </div>
+
+       <div style="text-align: right;">
+ <p>do you want to leave profile? Click
+   <a th:href="@{/logout}">here</a> to logout</p>
+         </div>
+
+ </body>
+ </html>

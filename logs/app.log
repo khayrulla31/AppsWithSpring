@@ -1,0 +1,109 @@
+2024-06-18 13:34:53,205 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2193 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 13:34:53,210 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 13:34:53,210 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 13:34:55,480 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.399 seconds (process running for 3.059)
+2024-06-18 13:34:55,483 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 13:57:16,881 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2339 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 13:57:16,882 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 13:57:16,883 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 13:57:19,033 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.271 seconds (process running for 2.688)
+2024-06-18 13:57:19,034 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 13:57:58,391 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-4] создан новый пользователь: orange
+2024-06-18 13:57:58,500 INFO c.n.d.s.I.UserServiceImpl [http-nio-8080-exec-4] создан новый пользователь: orange
+2024-06-18 13:58:44,011 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-5] создан новый пользователь: peach
+2024-06-18 13:58:44,118 INFO c.n.d.s.I.UserServiceImpl [http-nio-8080-exec-5] создан новый пользователь: peach
+2024-06-18 13:59:39,262 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-6] ПОльзователь удален
+2024-06-18 14:32:20,351 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2585 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:32:20,352 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:32:20,352 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:32:22,237 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.004 seconds (process running for 2.547)
+2024-06-18 14:32:22,238 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:32:35,106 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-2] создан новый пользователь: peach
+2024-06-18 14:32:40,973 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-3] создан новый пользователь: peach
+2024-06-18 14:33:28,040 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-4] создан новый пользователь: peach
+2024-06-18 14:33:28,186 INFO c.n.d.s.I.UserServiceImpl [http-nio-8080-exec-4] создан новый пользователь: peach
+2024-06-18 14:35:46,774 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2649 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:35:46,775 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:35:46,776 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:35:48,842 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.183 seconds (process running for 2.729)
+2024-06-18 14:35:48,843 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:40:10,634 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2697 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:40:10,635 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:40:10,636 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:40:12,600 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.078 seconds (process running for 2.597)
+2024-06-18 14:40:12,602 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:46:47,104 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2771 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:46:47,107 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:46:47,107 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:46:49,140 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.205 seconds (process running for 2.766)
+2024-06-18 14:46:49,141 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:47:29,572 INFO c.n.d.c.RegistrationController [http-nio-8080-exec-7] СОЗДАН lolo
+2024-06-18 14:49:13,338 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2812 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:49:13,339 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:49:13,339 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:49:15,302 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.077 seconds (process running for 2.589)
+2024-06-18 14:49:15,303 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:49:37,186 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2826 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:49:37,187 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:49:37,188 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:49:39,165 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.094 seconds (process running for 2.484)
+2024-06-18 14:49:39,166 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:49:53,559 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2840 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:49:53,560 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:49:53,561 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:49:55,550 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.114 seconds (process running for 2.499)
+2024-06-18 14:49:55,551 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:50:28,247 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-4] ПОльзователь удален
+2024-06-18 14:52:49,450 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2870 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:52:49,452 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:52:49,452 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:52:51,473 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.136 seconds (process running for 2.644)
+2024-06-18 14:52:51,474 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:53:00,298 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-1] ПОльзователь удален
+2024-06-18 14:56:01,185 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2896 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 14:56:01,186 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 14:56:01,187 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 14:56:03,263 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.195 seconds (process running for 2.594)
+2024-06-18 14:56:03,265 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 14:56:24,038 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-1] ПОльзователь удален
+2024-06-18 14:57:08,519 INFO c.n.d.c.RegistrationController [http-nio-8080-exec-5] СОЗДАН orange
+2024-06-18 14:57:17,638 INFO c.n.d.c.RegistrationController [http-nio-8080-exec-10] СОЗДАН peach
+2024-06-18 14:57:46,822 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-2] ПОльзователь удален
+2024-06-18 14:58:05,351 INFO c.n.d.c.a.ApiRegistrationController [http-nio-8080-exec-4] ПОльзователь удален
+2024-06-18 15:07:29,915 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2959 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 15:07:29,916 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 15:07:29,916 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 15:07:31,821 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.018 seconds (process running for 2.522)
+2024-06-18 15:07:31,822 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 15:07:48,046 INFO c.n.d.c.RegistrationController [http-nio-8080-exec-5] СОЗДАН orange
+2024-06-18 15:08:29,398 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 2976 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 15:08:29,399 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 15:08:29,400 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 15:08:31,292 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.009 seconds (process running for 2.398)
+2024-06-18 15:08:31,294 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 15:08:41,145 INFO c.n.d.c.RegistrationController [http-nio-8080-exec-2] СОЗДАН banana
+2024-06-18 15:10:56,607 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 3000 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 15:10:56,608 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 15:10:56,609 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 15:10:58,571 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.085 seconds (process running for 2.481)
+2024-06-18 15:10:58,572 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 15:11:23,119 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 3015 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 15:11:23,120 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 15:11:23,121 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 15:11:25,031 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.027 seconds (process running for 2.41)
+2024-06-18 15:11:25,032 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 15:16:03,916 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 3070 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 15:16:03,917 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 15:16:03,918 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 15:16:05,736 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 1.933 seconds (process running for 2.32)
+2024-06-18 15:16:05,738 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 16:45:14,689 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 3404 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 16:45:14,690 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 16:45:14,691 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:45:16,701 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.136 seconds (process running for 2.725)
+2024-06-18 16:45:16,702 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger
+2024-06-18 16:48:29,729 INFO o.s.b.StartupInfoLogger [restartedMain] Starting DateAppApplication using Java 20.0.2 with PID 3440 (/Users/nikolaj/Documents/dateApp/target/classes started by nikolaj in /Users/nikolaj/Documents/dateApp)
+2024-06-18 16:48:29,730 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-06-18 16:48:29,731 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:48:31,752 INFO o.s.b.StartupInfoLogger [restartedMain] Started DateAppApplication in 2.137 seconds (process running for 2.731)
+2024-06-18 16:48:31,753 INFO c.n.d.DateAppApplication [restartedMain] LOGGER CLASS NOW IS: class org.apache.logging.log4j.core.Logger

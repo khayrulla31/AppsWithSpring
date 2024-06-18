@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>registration form</title>
+<!--    <link rel="stylesheet" th:href="@{/style.css}" /> кажется это мешало закгрузке формы-->
+</head>
+
+<body>
+
+
+<form method="POST" th:action="@{/auth/register}" th:object="${userRegister}">
+    <h1>Register</h1>
+
+    <div th:if="${#fields.hasErrors()}">
+        <span class="validationError">
+        Please correct the problems below and resubmit.
+        </span>
+    </div>
+
+    <label for="username">Username: </label>
+
+
+    <input type="text" th:field="*{username}" id="username" placeholder="username"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('username')}"
+          th:errors="*{username}">Name Error</span>
+    <br/>
+
+    <label for="password">Password: </label>
+    <input type="password" th:field="*{password}" id="password" placeholder="password"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('password')}"
+          th:errors="*{password}">Password Error</span>
+    <br/>
+
+   <label for="confirmPassword">Confirm you password: </label>
+    <input type="password" th:field="*{confirmPassword}" id="confirmPassword" placeholder="confirm password"/>
+    <br/>
+
+    <input type="submit" value="Register"/>
+</form>
+
+<p>do you want to leave profile? Click
+    <a th:href="@{/logout}">here</a> to logout</p>
+
+</body>
+</html>
